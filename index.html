@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Agency</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <!-- ================================================================ -->
+  <!-- ------------------------Hero Section---------------------------- -->
+  <!-- ================================================================ -->
+
+  <section class="container hero-section">
+    <div class="row">
+      <div class="col-md-6 hero-text">
+        <h2 class="text-danger">Award Winning</h2>
+        <h1>Digital Marketing Agency</h1>
+        <p>Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla
+          ac at purus. Morbi sed lacus nec risus finibus feugiat at fermentum.</p>
+        <div class="container mt-5">
+          <button class="contact-btn" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
+
+      </div>
+      <div class="col-md-6">
+        <img src="./img/1st.jpg" class="img-fluid" alt="Digital Marketing Agency">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================ -->
+  <!-- ----------------------- CONTACT FORM -------------------------- -->
+  <!-- ================================================================ -->
+
+
+  <!-- Contact Form Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Talk to us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="contactForm" action="https://getform.io/f/pbmqonyb" method="POST">
+            <div class="form-group">
+              <label for="workEmail">Work email*</label>
+              <input type="email" class="form-control" id="workEmail" name="workEmail" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="firstName">First name*</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="lastName">Last name*</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" required>
+              </div>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+              <label class="form-check-label" for="terms">I agree to the terms and conditions, and provide consent to
+                send me communication.</label>
+            </div>
+            <button type="submit" class="btn btn-danger btn-block">Contact Us</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success Modal -->
+  <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="successModalLabel">Success</h5>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-success" role="alert">
+            Your form has been submitted successfully!
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Error Modal -->
+  <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="errorModalLabel">Error</h5>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-danger" role="alert">
+            There was an error submitting the form. Please try again.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- ================================================================ -->
+  <!-- ------------------------ WHAT WE DO ---------------------------- -->
+  <!-- ================================================================ -->
+
+  <section class="container services-section">
+    <div class="header-section">
+      <div class="text-left">
+        <h2>What We Do</h2>
+        <h3>Services Provide For You</h3>
+      </div>
+      <div class="text-right">
+        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit
+          fringilla ac et
+          purus. Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+      </div>
+    </div>
+
+    <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4 service-item">
+              <img src="./img/slide1.jpg" alt="Service 1">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 service-item">
+              <img src="./img/slide2.jpg" alt="Service 2">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 service-item remove">
+              <img src="./img/slide3.jpg" alt="Service 3">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4 service-item">
+              <img src="./img/slide4.jpg" alt="Service 4">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 service-item">
+              <img src="./img/slide5.jpg" alt="Service 5">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 service-item remove">
+              <img src="./img/slide6.jpg" alt="Service 6">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item " >
+          <div class="row">
+            <div class="col-md-4 service-item remove">
+              <img src="./img/slide7.jpg" alt="Service 7">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 service-item remove">
+              <img src="./img/slide8.jpg" alt="Service 8">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 service-item remove">
+              <img src="./img/slide9.jpg" alt="Service 9">
+              <div class="service-hover">
+                <div class="icon"><i class="fas fa-code"></i></i></div>
+                <h4>WEB DEVELOPMENT</h4>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh.</p>
+                <a href="https://www.fylehq.com" target="_blank" class="btn btn-light">READ MORE<i
+                    class="fas fa-arrow-right arrow-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ol class="carousel-indicators">
+        <li data-target="#servicesCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#servicesCarousel" data-slide-to="1"></li>
+        <li data-target="#servicesCarousel" data-slide-to="2"></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- ------------------------ OUR PROJECT --------------------------- -->
+  <!-- ================================================================ -->
+
+  <section class="container content-section d-flex flex-column align-items-center">
+    <h2>OUR PROJECT</h2>
+    <h3>WHY WE ARE BEST</h3>
+    <div class="d-flex w-100">
+      <div class="spacer"></div>
+      <div class="image-container" style="height: 469.292px;">
+        <img id="mainImage" src="./img/up4.jpg" alt="Image 1">
+      </div>
+      <div class="content-container">
+        <div id="content1" class="content-item active" data-image="./img/up4.jpg">
+          <h4>Genderless Kei - Japan's Hot</h4>
+          <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+        </div>
+        <div id="content2" class="content-item" data-image="./img/up1.jpg">
+          <h4>Better Strategy & Quality</h4>
+          <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+        </div>
+        <div id="content3" class="content-item" data-image="./img/up3.jpg">
+          <h4>Genderless Kei - Japan's Hot</h4>
+          <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+        </div>
+      </div>
+      <div class="spacer"></div>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- ------------------------ EXPERTS GROWTH ------------------------ -->
+  <!-- ================================================================ -->
+
+  <section class="company-growth">
+    <div class="container">
+      <h2>EXPERTS GROWTH</h2>
+      <h3>OUR COMPANY GROWTH</h3>
+      <div class="growth-stats">
+        <div class="stat">
+          <i class="fas fa-heart"></i>
+          <span class="number" data-target="199">0</span>
+          <span class="plus">+</span>
+          <p>Satisfied Customers</p>
+        </div>
+        <div class="stat">
+          <i class="fas fa-clock"></i>
+          <span class="number" data-target="1591">0</span>
+          <span class="plus">+</span>
+          <p>Days Of Operation</p>
+        </div>
+        <div class="stat">
+          <i class="fas fa-check-circle"></i>
+          <span class="number" data-target="283">0</span>
+          <span class="plus">+</span>
+          <p>Complete Projects</p>
+        </div>
+        <div class="stat">
+          <i class="fas fa-trophy"></i>
+          <span class="number" data-target="75">0</span>
+          <span class="plus">+</span>
+          <p>Win Awards</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<!-- ===============   AJAX form submission   =============== -->
+  <script>
+    $(document).ready(function () {
+      $('#contactForm').on('submit', function (e) {
+        e.preventDefault();
+        var actionUrl = $(this).attr('action');
+        $.ajax({
+          type: 'POST',
+          url: actionUrl,
+          data: $(this).serialize(),
+          success: function (response) {
+            $('#contactModal').modal('hide');
+            $('#successModal').modal('show');
+          },
+          error: function (error) {
+            $('#contactModal').modal('hide');
+            $('#errorModal').modal('show');
+          }
+        });
+      });
+    });
+  </script>
+
+
+<!-- ===============   Carousel initialization   =============== -->
+  <script>
+    $('#servicesCarousel').carousel({
+      interval: 1000
+    });
+  </script>
+
+
+<!-- ===============   Image and content handling   =============== -->
+  <script>
+    $(document).ready(function () {
+      $('.content-item').on('click', function () {
+        $('.content-item').removeClass('active');
+        $(this).addClass('active');
+        var newImage = $(this).data('image');
+        $('#mainImage').attr('src', newImage);
+      });
+
+      function adjustImageHeight() {
+        var contentHeight = $('.content-container').height();
+        $('.image-container').height(contentHeight);
+      }
+
+      adjustImageHeight();
+      $(window).resize(function () {
+        adjustImageHeight();
+      });
+    });
+  </script>
+
+
+<!-- ===============   Counters animation   =============== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const counters = document.querySelectorAll('.number');
+      const speed = 200; // The lower the speed, the faster the counter
+
+      counters.forEach(counter => {
+        const updateCount = () => {
+          const target = +counter.getAttribute('data-target');
+          const count = +counter.innerText;
+
+          // Calculate the increment
+          const increment = target / speed;
+
+          // If count is less than target, add increment
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, 1);
+          } else {
+            counter.innerText = target;
+          }
+        };
+
+        updateCount();
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>
